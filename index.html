@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Color Scheme Generator</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <main>
+      <div id="notification" aria-hidden="true"></div>
+      <div class="box">
+         <header>
+            <h1 class="fancy">Color Palette Generator</h1>
+         </header>
+         <nav>
+            <button type="submit" id="generate-random">Get Random Colors</button>
+         </nav>
+
+         <div id="wrapper" class="box">
+            <section>
+               <article id="color1"></article>
+               <article class="color-area">
+                  <strong class="color-name"></strong>
+                  <p class="color-hex"></p>
+               </article>
+            </section>
+            <section>
+               <article id="color2"></article>
+               <article class="color-area">
+                  <strong class="color-name"></strong>
+                  <p class="color-hex"></p>
+               </article>
+            </section>
+            <section>
+               <article id="color3"></article>
+               <article class="color-area">
+                  <strong class="color-name"></strong>
+                  <p class="color-hex"></p>
+               </article>
+            </section>
+            <section>
+               <article id="color4"></article>
+               <article class="color-area">
+                  <strong class="color-name"></strong>
+                  <p class="color-hex"></p>
+               </article>
+            </section>
+            <section>
+               <article id="color5"></article>
+               <article class="color-area">
+                  <strong class="color-name"></strong>
+                  <p class="color-hex"></p>
+               </article>
+            </section>
+
+            <footer class="grid-span">
+               <strong>Click on the colors to copy!</strong>
+               <hr>
+               <p>Made with ❤️ by @Line-Em.</p>
+            </footer>
+         </div>
+      </div>
+   </main>
+   <script src="./main.js"></script>
+</body>
+
+</html>
